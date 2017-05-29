@@ -1,0 +1,9 @@
+package: .
+import:
+- package: github.com/labstack/echo
+  version: ~3.1.0
+  subpackages:
+  - engine/standard
+  - middleware
+- package: github.com/rs/cors
+  version: ~1.0.0
